@@ -79,15 +79,6 @@ Benchmarked on TSPLIB instances (Eil51, Oliver30, Swiss42). \
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=nelsonramosua&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nelsonramosua&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
-</div>
-
----
-
 ## Education
 
 **Licenciatura em Engenharia de Computadores e Informática (LECI)**. \
