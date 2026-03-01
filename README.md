@@ -8,7 +8,7 @@ Focused on low-level software development, infrastructure and DevOps.
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nelsonrocharamos/)
-[![Location]🇵🇹 Portugal](#)
+[![Location]](#)🇵🇹 Portugal
 [![University](https://img.shields.io/badge/UAveiro-LECI-003DA5?style=flat&logo=academia&logoColor=white)](https://www.ua.pt/)
 [![English C1](https://img.shields.io/badge/English-C1_Advanced-8B0000?style=flat&logo=britishcouncil&logoColor=white)](https://credentials.britishcouncil.org/8859dfbd-536b-4795-a296-d4aa7d458980)
 
