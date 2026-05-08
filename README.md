@@ -55,11 +55,12 @@ A deployment platform built from scratch. Push to GitHub -> app live at its own 
 - Caddy as a dynamic reverse proxy — routes and TLS certificates provisioned automatically per subdomain on every deploy via its JSON Admin API.
 - Prometheus + Grafana + Alertmanager for observability, with a custom Go metrics exporter per worker node.
 - Automatic rollback on health check failure. Graceful process lifecycle (SIGTERM -> grace -> SIGKILL). cgroup v2 + Linux namespace isolation.
+
 **System design:**
 - Control plane in Go: HMAC-SHA256 webhook validation, task scheduler, SQLite WAL state, AES-256-GCM secrets vault, SSE log streaming.
 - Worker agent in C11: poll-driven task execution, hand-rolled HTTP client, custom recursive-descent JSON parser, Linux user/PID/mount namespaces, no container runtime.
 - CI: Go vet/lint/race detector, strict C compilation, gosec, Trivy, CodeQL, Terraform validate, Ansible lint, E2E tests.
-Live at [nforge.space](https://nforge.space) - Admin console at [admin.nforge.space](https://admin.nforge.space)
+Live at [nforge.space](https://nforge.space) - Admin console at [admin.nforge.space](https://admin.nforge.space).
  
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
@@ -109,16 +110,20 @@ Benchmarked on TSPLIB instances (Eil51, Oliver30, Swiss42). \
 
 ## Education
 
-**Licenciatura em Engenharia de Computadores e Informática (LECI)**. \
+- **Licenciatura em Engenharia de Computadores e Informática (LECI)**. \
 Universidade de Aveiro: Sep 2024 - Jun 2027 (Expected): Current GPA: 16/20.
+- **Ensino Secundário em Ciências e Tecnologias**. \
+Escola Secundária Dr. Mário Sacramento: Sep 2021 - Jun 2024: GPA: 18/20.
 
 ---
 
 ## Languages
 
-Portuguese - Native | English - C1 (Aptis ESOL Advanced, British Council, 2024).
+- Portuguese - Native. 
+- English - C1/C2 (Aptis ESOL Advanced, British Council, issue Apr 2024).
 
 ---
+
 <div align="center">
-<sub>Please, feel free to explore the repos, open issues, open pull requests or reach out on LinkedIn.</sub>
+<sub>Please, feel free to explore the repos, open issues, open pull requests, contribute or reach out on LinkedIn.</sub>
 </div>
